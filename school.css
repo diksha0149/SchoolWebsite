@@ -32,29 +32,36 @@
     font-weight: 500;
 }
 .navbar{
-    text-align: center;
+   align-items: center;
+   text-align: center;
     text-transform: uppercase;
     background: green;
+   
 }
 .navbar ul{
+    height: 42px;
     display: inline-flex;
     list-style: none;
     color: white;
-    height: 35px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    position: relative;
+    align-items: center;
+   justify-content: center;
 }
 .navbar ul li{
-    width: 160px;
-    padding: 10px;
+   width: 155px;
+   height: 20px;
     text-align: center;
    font-size: 15px;
+   font-weight: 700;
+   margin: 5px;
+   padding: 10px 5px 10px 5px;
+  
 }
 .navbar ul li a{
     text-decoration: none;
     color: white;
 }
-.active, .navbar ul li:hover{
+ .active, .navbar ul li:hover{
     background: rgb(81, 187, 81);
     border-radius: 3px;
 }
@@ -66,7 +73,8 @@
     position: relative;
     background: green;
     margin-top: 15px;
-    margin-left: -15px;
+    margin-left: 20px;
+    width: 180px;
 }
 .navbar ul li:hover .subbar1 ul{
     display: block;
@@ -80,8 +88,9 @@
     display: inline-flex;
     position: relative;
     background: green;
-    margin-top: 10px;
-    margin-left: -15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 180px;
 }
 .navbar ul li:hover .subbar2 ul{
     display: block;
@@ -95,8 +104,9 @@
     display: inline-flex;
     position: relative;
     background: green;
-    margin-top: 10px;
-    margin-left: -15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 180px;
 }
 .navbar ul li:hover .subbar3 ul{
     display: block;
